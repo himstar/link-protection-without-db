@@ -1,0 +1,99 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Protect Link Via Login Id and Password Without Database Demo </title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+<style>
+.login-popup{
+	display:none;
+	background: #333;
+	padding: 10px; 	
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999;
+	-moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+img.btn_close {
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+form.signin p, form.signin span { 
+	color:#999; 
+	font-size:12px; 
+	line-height:18px;
+} 
+form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+</style>
+<script>
+<!--//
+/*This Script allows people to enter by using a form that asks for a
+UserID and Password*/
+function pasuser(form) {
+if (form.id.value=="tricksway") { 
+if (form.pass.value=="12345") { 
+location="http://www.cyberin.in" 
+} else {
+alert("Invalid Password")
+}
+} else { alert("Invalid TokenID")
+}
+}
+//-->
+</script>
+<body>
+<header>
+<div class="navbar navbar-fixed-top" style="height:130px;">
+	<div class="navbar-inner">
+		<div class="container" style="width:1200px; height:130px;">
+		     <!-- top menu -->			
+				 <ul id="nav">
+				 <a class="brand logo" href="http://www.tricksway.com" alt="Html codes, Javascripts, Css Design" title="Html codes, Javascripts, Css Design">
+			<img src="images/TricksWay-Gif.gif" width="300px; height:130px;" alt="Html codes, Javascripts, Css Design" title="Html codes, Javascripts, Css Design" />
+			</a><a class="brand logo" href="http://www.tricksway.com">
+									<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2479197994239346";
+/* cpanel */
+google_ad_slot = "1154289340";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+			</a>			 <!-- logo -->
+			
+		</div>
+		</div>
+</div>
+</header>
+<a href="#login-box" class="login-window" style="font-size:30px;"><center><b>Click Here !</b></center></a>
+<div id="login-box" class="login-popup">
+<a href="#" class="close"><img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+<form name="login" method="post" class="signin" action="#">
+<div style="color:#ffffff;">Enter Detail To Unlock Web Link: </div><br/>
+<label class="username">
+<span>Username or email</span>
+<input name="id" type="text">
+</label>
+<label class="password">
+<span>Password</span>
+<input name="pass" type="password">
+</label>
+<input type="button" value="Login"
+onClick="pasuser(this.form)">         
+</fieldset>
+</form>
+</div>
+</body>
+<script type="text/javascript" src="modal.js"></script>
