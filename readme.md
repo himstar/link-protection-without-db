@@ -1,5 +1,4 @@
-<h2>If you want to share any specific link on your website via specific login Id and Password, wait is over a simple and fine working script can do as per your needs also you can Protect Link With Login Id and Password Without Database.
-Also it's a very simple and lighted weighted script which not affect total loading time of web pages.  </h2>
+<h2> Protect Link With Login Id and Password Without Database  </h2>
 <br>
 If you want to share any specific link on your website via specific login Id and Password, wait is over a simple and fine working script can do as per your needs also you can Protect Link With Login Id and Password Without Database.
 Also it's a very simple and lighted weighted script which not affect total loading time of web pages.
